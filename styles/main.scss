@@ -1,4 +1,4 @@
-body {
+    body {
     background: radial-gradient(circle, rgb(7, 0, 132) 0%, rgba(46, 1, 72, 0.947) 100%);
 }
 
@@ -18,6 +18,15 @@ header {
         img {
             width: 5%;
         }
+}
+
+.navbar {
+    background: radial-gradient(circle, rgb(7, 0, 132) 0%, rgba(46, 1, 72, 0.947) 100%);
+    
+    .navbar-brand, .nav-link, .navbar-nav {
+        color: white;
+        font-weight: 600;
+    }
 }
 
 .product {
