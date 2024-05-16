@@ -19,6 +19,14 @@ header img {
   width: 5%;
 }
 
+.navbar {
+  background: radial-gradient(circle, rgb(7, 0, 132) 0%, rgba(46, 1, 72, 0.947) 100%);
+}
+.navbar .navbar-brand, .navbar .nav-link, .navbar .navbar-nav {
+  color: white;
+  font-weight: 600;
+}
+
 .product {
   width: 80%;
   padding: 20px;
